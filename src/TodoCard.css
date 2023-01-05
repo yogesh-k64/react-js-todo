@@ -1,0 +1,14 @@
+.todoItem{
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2.5rem
+}
+.titleContainer{
+  width: 80%;
+}
+
+.buttonContainer{
+  width:8%;
+  display:flex;
+  justify-content: space-between;
+}

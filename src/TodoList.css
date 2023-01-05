@@ -1,0 +1,27 @@
+.title {
+  color: #424874;
+  font-size: x-large;
+  font-weight: 600;
+  padding: 1rem 2rem;
+}
+.todoList {
+  height: 85%;
+  overflow: scroll;
+  border-radius: 0.5rem;
+  -ms-overflow-style: none;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.75);
+}
+.todoList::-webkit-scrollbar {
+  display: none;
+}
+.notodo{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+    height: calc(100% - 6rem);
+}
+.notodo img{
+  height: 4rem;
+}
